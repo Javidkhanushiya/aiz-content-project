@@ -27,18 +27,17 @@ export default function Hero1() {
                             <div className="hero-content">
                                 <h6 className="wow fadeInUp" data-wow-delay=".2s">Best it SOULTION Provider</h6>
                                 <h1 className="wow fadeInUp" data-wow-delay=".4s">
-                                    Excellent It Services
-                                    for Your Success
+                                    Website Development and Software Company in INDIA - USA
                                 </h1>
-                                <p className="wow fadeInUp" data-wow-delay=".6s">
+                                {/* <p className="wow fadeInUp" data-wow-delay=".6s">
                                     Consectetur adipiscing elit aenean scelerisque at augue vitae consequat <br /> quisque eget congue velit in cursus leo sed sodales est eget turpis.
-                                </p>
+                                </p> */}
                                 <div className="hero-button">
                                     <Link href="/about" className="theme-btn wow fadeInUp" data-wow-delay=".8s">
-                                        Explore More
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height={'17px'} width={"17px"} ><path d="M429.8 273l17-17-17-17L276.2 85.4l-17-17-33.9 33.9 17 17L354.9 232 24 232 0 232l0 48 24 0 330.8 0L242.2 392.6l-17 17 33.9 33.9 17-17L429.8 273z"/></svg>
+                                        Read More
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height={'17px'} width={"17px"} ><path d="M429.8 273l17-17-17-17L276.2 85.4l-17-17-33.9 33.9 17 17L354.9 232 24 232 0 232l0 48 24 0 330.8 0L242.2 392.6l-17 17 33.9 33.9 17-17L429.8 273z" /></svg>
                                     </Link>
-                                    <VideoPopup style={3} />
+                                    {/* <VideoPopup style={3} /> */}
                                 </div>
                             </div>
                         </div>

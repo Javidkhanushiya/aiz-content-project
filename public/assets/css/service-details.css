@@ -1458,7 +1458,7 @@ span {
   content: "";
   background-color: var(--white);
   z-index: -1;
-  top: 50%;
+  top: 0%;
 }
 .cta-banner-2 .cta-wrapper-2 {
   padding: 55px 60px;

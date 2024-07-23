@@ -19,7 +19,7 @@ export default function About2() {
                                             <img loading="lazy" src="/assets/img/about/icon-1.svg" alt="icon-img" />
                                         </div>
                                         <div className="content">
-                                            <h3><CounterUp count={25}/>Years</h3>
+                                            <h3><CounterUp count={10 }/>Years</h3>
                                             <p>Of Experience</p>
                                         </div>
                                     </div>
@@ -33,15 +33,15 @@ export default function About2() {
                             <div className="col-lg-6 mt-4 mt-lg-0">
                                 <div className="about-content">
                                     <div className="section-title">
-                                        <span className="wow fadeInUp">ABOUT INFOTECK</span>
+                                        <span className="wow fadeInUp">ABOUT COMPANY</span>
                                         <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                                            We Are Increasing Business Success With <span>Technology</span>
+                                        Web Development  <span>Company</span>
                                         </h2>
                                     </div>
                                     <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                        It is a long established fact that a reader will be distracted the readable <br /> content of a page when looking at layout the point.
+                                    AIZ INFOTECH Is A Web Development And Designing Company Committed To Providing Unmatched IT Services To Fulfill Clients’ Vision Into Reality. Our Web Development Agency Follows A Result-Oriented Process Focused On Client Satisfaction.Our Expert Website Development Team Is Experienced In Offering Enterprise-Level Solutions That Are Secure And Highly Reliable. We Are Passionate About WordPress And Know Every Detail Of It, When It Comes To Website Development, Irrespective Of Your Requirements, You Can Count On Our Dedicated Custom Website Development Team To Fulfill Them And Deliver The Most Effective Results.
                                     </p>
-                                    <div className="about-icon-items">
+                                    {/* <div className="about-icon-items">
                                         <div className="icon-items wow fadeInUp" data-wow-delay=".7s">
                                             <div className="icon">
                                                 <img loading="lazy" src="/assets/img/about/icon-4.svg" alt="icon-img" />
@@ -64,21 +64,21 @@ export default function About2() {
                                                 </p>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                     <div className="about-author">
                                         <div className="about-button wow fadeInUp" data-wow-delay=".5s">
                                             <Link href="/about" className="theme-btn">
-                                                Explore More
+                                            Discover More
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height={'17px'} width={"17px"} ><path d="M429.8 273l17-17-17-17L276.2 85.4l-17-17-33.9 33.9 17 17L354.9 232 24 232 0 232l0 48 24 0 330.8 0L242.2 392.6l-17 17 33.9 33.9 17-17L429.8 273z"/></svg>
                                             </Link>
                                         </div>
-                                        <div className="author-image wow fadeInUp" data-wow-delay=".7s">
+                                        {/* <div className="author-image wow fadeInUp" data-wow-delay=".7s">
                                             <img loading="lazy" src="/assets/img/about/author.png" alt="author-img" />
                                             <div className="content">
                                                 <h6>Ronald Richards</h6>
                                                 <p>Co, Founder</p>
                                             </div>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>

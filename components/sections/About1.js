@@ -18,7 +18,7 @@ export default function About1() {
                                             <img loading="lazy" src="/assets/img/about/icon-1.svg" alt="icon-img" />
                                         </div>
                                         <div className="content">
-                                            <h3><CounterUp count={6561}/>+</h3>
+                                            <h3><CounterUp count={160}/>+ <p security={{fontSize:"10px"}}>Get National Award</p></h3>
                                         </div>
                                     </div>
                                     <VideoPopup style={2} />
@@ -32,15 +32,15 @@ export default function About1() {
                             <div className="col-lg-6 mt-4 mt-lg-0">
                                 <div className="about-content">
                                     <div className="section-title">
-                                        <span className="wow fadeInUp">ABOUT INFOTECK</span>
+                                        <span className="wow fadeInUp">OUR COMPANY</span>
                                         <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                                            We Are Increasing Business Success With <span>Technology</span>
+                                        Find Out More About Our <span>Business Consulting</span>
                                         </h2>
                                     </div>
                                     <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                        It is a long established fact that a reader will be distracted the readable <br /> content of a page when looking at layout the point.
+                                    Fusce Quis Lacus Laoreet, Dignissim Quam Eu, Scelerisque Tortor. Cras Volutpat Aliquet Efficitur. Quisque Dignissim Justo Ac Erat Tincidunt Tristique. Curabitur Id Tortor Ipsum. Suspendisse Suscipit Commodo Turpis Eu Interdum Volutpat Aliquet Efficitur.
                                     </p>
-                                    <div className="about-icon-items">
+                                    {/* <div className="about-icon-items">
                                         <div className="icon-items wow fadeInUp" data-wow-delay=".7s">
                                             <div className="icon">
                                                 <img loading="lazy" src="/assets/img/about/icon-2.svg" alt="icon-img" />
@@ -63,21 +63,21 @@ export default function About1() {
                                                 </p>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                     <div className="about-author">
                                         <div className="about-button wow fadeInUp" data-wow-delay=".5s">
                                             <Link href="/about" className="theme-btn">
-                                                Explore More
+                                            Read More
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height={'17px'} width={"17px"} ><path d="M429.8 273l17-17-17-17L276.2 85.4l-17-17-33.9 33.9 17 17L354.9 232 24 232 0 232l0 48 24 0 330.8 0L242.2 392.6l-17 17 33.9 33.9 17-17L429.8 273z"/></svg>
                                             </Link>
                                         </div>
-                                        <div className="author-image wow fadeInUp" data-wow-delay=".7s">
+                                        {/* <div className="author-image wow fadeInUp" data-wow-delay=".7s">
                                             <img loading="lazy" src="/assets/img/about/author.png" alt="author-img" />
                                             <div className="content">
                                                 <h6>Ronald Richards</h6>
                                                 <p>Co, Founder</p>
                                             </div>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>

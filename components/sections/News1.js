@@ -7,8 +7,8 @@ export default function News1() {
             <section className="news-section section-padding fix" id="blog">
                 <div className="container">
                     <div className="section-title text-center">
-                        <span className="wow fadeInUp">Article</span>
-                        <h2 className="wow fadeInUp" data-wow-delay=".3s">Read Our Latest Blog</h2>
+                        <span className="wow fadeInUp">FROM THE BLOG</span>
+                        <h2 className="wow fadeInUp" data-wow-delay=".3s">News & Articles</h2>
                     </div>
                 </div>
                 <div className="news-wrapper">
@@ -17,26 +17,25 @@ export default function News1() {
                             <div className="single-news-items">
                                 <div className="news-image bg-cover" style={{ backgroundImage: 'url("assets/img/news/01.jpg")' }}>
                                     <div className="post-date">
-                                        <span>Feb, 2024</span>
+                                        <span>DEC, 21</span>
                                     </div>
                                 </div>
                                 <div className="news-content">
                                     <h3>
                                         <Link href="/news-details">
-                                            Top 5 Most Famous <br />
-                                            Technology Trend In 2024
+                                            WordPress Development Companies  <br />In
+                                            India: The Complete Guideline
                                         </Link>
                                     </h3>
-                                    <p>
-                                        Nulla ut turpis a nisi vulputate varius non ut lectus. Ut vulputate tempus tincidunt. Duis mi tellus,
-                                    </p>
-                                    <Link href="/news-details" className="theme-btn-2 mt-3">
+                                    <p>  NThe Complete Guide To WordPress DevelopmentServices In India: Unleashing The Power Of WordPress For Your Business   Are You Looking To Elevate Your Online Presence And Boost Your Business With A Powerful Website? Look No Further Than WordPress Development......</p>
+                                    
+                                    {/* <Link href="/news-details" className="theme-btn-2 mt-3">
                                         Read More
-                                    </Link>
+                                    </Link> */}
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                        {/* <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                             <div className="single-news-items">
                                 <div className="news-image bg-cover" style={{ backgroundImage: 'url("assets/img/news/03.jpg")' }}>
                                     <div className="post-date">
@@ -58,8 +57,8 @@ export default function News1() {
                                     </Link>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
+                        </div> */}
+                        {/* <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
                             <div className="single-news-items">
                                 <div className="news-image bg-cover" style={{ backgroundImage: 'url("assets/img/news/02.jpg")' }}>
                                     <div className="post-date">
@@ -81,7 +80,7 @@ export default function News1() {
                                     </Link>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>

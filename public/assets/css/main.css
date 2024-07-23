@@ -1458,14 +1458,14 @@ span {
   }
 }
 .cta-wrapper .cta-items h3 {
-  font-size: 32px;
+  font-size: 24px;
   font-weight: bold;
   color: var(--white);
   line-height: 156%;
 }
 @media (max-width: 767px) {
   .cta-wrapper .cta-items h3 {
-    font-size: 28px;
+    font-size: 24px;
   }
 }
 @media (max-width: 575px) {
@@ -1489,7 +1489,7 @@ span {
   content: "";
   background-color: var(--white);
   z-index: -1;
-  top: 50%;
+  top: 0%;
 }
 .cta-banner-2 .cta-wrapper-2 {
   padding: 55px 60px;
@@ -2112,7 +2112,7 @@ span {
   border-radius: 0;
   background: var(--theme);
   height: 12px;
-  width: 0;
+  width: 100% !important;
   border-radius: 16px;
 }
 .choose-us-wrapper .choose-content .progress-wrap .pro-items .style-two {
@@ -4146,17 +4146,18 @@ span {
   background-image: url(../../assets/img/hero/icon.svg);
 }
 .hero-1 .hero-content h1 {
+  font-size: 65px;
   text-transform: initial;
   margin-bottom: 30px;
 }
 @media (max-width: 1399px) {
   .hero-1 .hero-content h1 {
-    font-size: 70px;
+    font-size: 65px;
   }
 }
 @media (max-width: 1199px) {
   .hero-1 .hero-content h1 {
-    font-size: 66px;
+    font-size: 50px;
   }
 }
 @media (max-width: 991px) {
@@ -7503,7 +7504,7 @@ input.main-search-input::placeholder {
 
 .testimonial-wrapper {
   background-color: var(--bg);
-  padding: 80px;
+  padding: 80px !important;
   position: relative;
 }
 .testimonial-wrapper .swiper-dot-2 {
@@ -7518,12 +7519,12 @@ input.main-search-input::placeholder {
 }
 @media (max-width: 767px) {
   .testimonial-wrapper {
-    padding: 60px 50px;
+    padding: 60px 50px !important;
   }
 }
 @media (max-width: 575px) {
   .testimonial-wrapper {
-    padding: 50px 40px;
+    padding: 50px 40px !important;
   }
 }
 .testimonial-wrapper .testimonial-items {

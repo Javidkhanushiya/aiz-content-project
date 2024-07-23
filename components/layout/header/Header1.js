@@ -55,11 +55,11 @@ export default function Header1({
                                 <ul className="contact-list">
                                     <li>
                                         <i className="far fa-envelope" />
-                                        <Link href="mailto:info@example.com" className="link">info@example.com</Link>
+                                        <Link href="mailto:info@example.com" className="link">info@aizinfotechs.com</Link>
                                     </li>
                                     <li>
                                         <i className="fa-solid fa-phone-volume" />
-                                        <Link href="tel:2086660112">+208-666-0112</Link>
+                                        <Link href="tel:2086660112">+91 7874 278 859</Link>
                                     </li>
                                 </ul>
                                 <div className="top-right">
