@@ -3,6 +3,7 @@ import 'swiper/css';
 import { Kumbh_Sans } from 'next/font/google';
 import ClientLayout from './ClientLayout';
 
+
 const kumbh = Kumbh_Sans({
   weight: ['400', '500', '600', '700'],
   subsets: ['latin'],

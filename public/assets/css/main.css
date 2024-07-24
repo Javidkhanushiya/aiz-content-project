@@ -3008,6 +3008,9 @@ span {
   background-color: var(--theme);
   z-index: -1;
 }
+.header-1 .header-main .header-right .header-button .theme-btn svg{
+  margin-left:10px;
+}
 @media (max-width: 1899px) {
   .header-1::before {
     display: none !important;
@@ -3061,6 +3064,7 @@ span {
 .header-1 .header-main .header-right .header-button .theme-btn {
   padding: 22px 30px;
 }
+
 @media (max-width: 1899px) {
   .header-1 .header-main .header-right .header-button {
     margin-right: 0;

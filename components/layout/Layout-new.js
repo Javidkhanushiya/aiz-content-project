@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react"
 import BackToTop from '../elements/BackToTop'
 import "/public/assets/css/tailwind.css"
+import "/public/assets/css/main.css"
 import Offcanvas from "./Offcanvas-new"
 import Footer5 from "./footer/Footer5"
 import Header1 from "./header/Header5"

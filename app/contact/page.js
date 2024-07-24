@@ -1,7 +1,7 @@
 
 import VideoPopup from "@/components/elements/VideoPopup"
 import Layout from "@/components/layout/Layout"
-import Link from "next/link"
+// import Link from "next/link"
 import "/public/assets/css/bootstrap.min.css"
 import "/public/assets/css/main.css"
 import Getinto from "@/components/sections/Getinto"
