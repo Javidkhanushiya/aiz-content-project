@@ -1,5 +1,5 @@
 
-import VideoPopup from "@/components/elements/VideoPopup"
+// import VideoPopup from "@/components/elements/VideoPopup"
 import Layout from "@/components/layout/Layout"
 // import Link from "next/link"
 import "/public/assets/css/bootstrap.min.css"

@@ -58,11 +58,10 @@
   transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
   z-index: -1;
 }
-.theme-btn svg {
-  margin-left: 10px;
-}
+
 .theme-btn svg path {
   fill: var(--white);
+  
 }
 .theme-btn:hover {
   color: var(--white);
