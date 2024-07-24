@@ -18,10 +18,10 @@ export default function News() {
                                     <div className="news-image">
                                         <img loading="lazy" src="/assets/img/news/04.jpg" alt="news-img" />
                                         <div className="post-date">
-                                            <h3>
+                                            {/* <h3>
                                                 17 <br />
                                                 <span>Feb</span>
-                                            </h3>
+                                            </h3> */}
                                         </div>
                                     </div>
                                     <div className="news-content">

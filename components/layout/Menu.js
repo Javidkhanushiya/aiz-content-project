@@ -25,7 +25,10 @@ export default function Menu() {
                         <li><Link href="/service-details">Service Details</Link></li>
                     </ul>
                 </li>
-                <li className="has-dropdown">
+                <li>
+                    <Link href="/project-carousel">Portfolio</Link>
+                </li>
+                {/* <li className="has-dropdown">
                     <Link href="/news">
                         Pages
                         <i className="fas fa-angle-down ps-1" />
@@ -57,8 +60,13 @@ export default function Menu() {
                         <li><Link href="/faq">Faq's</Link></li>
                         <li><Link href="/error">404 Page</Link></li>
                     </ul>
-                </li>
+                </li> */}
+
+
                 <li>
+                    <Link href="/news-standard">Blog</Link>
+                </li>
+                {/* <li>
                     <Link href="/news">
                         Blog
                         <i className="fas fa-angle-down ps-1" />
@@ -68,7 +76,7 @@ export default function Menu() {
                         <li><Link href="/news-standard">Blog Standard</Link></li>
                         <li><Link href="/news-details">Blog Details</Link></li>
                     </ul>
-                </li>
+                </li> */}
                 <li>
                     <Link href="/contact">Contact</Link>
                 </li>

@@ -4,6 +4,7 @@ import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 import "/public/assets/css/bootstrap.min.css"
 import "/public/assets/css/main.css"
+import Getinto from "@/components/sections/Getinto"
 
 export default function Contact() {
 
@@ -13,7 +14,7 @@ export default function Contact() {
             <Layout headerStyle={1} footerStyle={2} breadcrumbTitle="Contact Us">
                 <div>
                     <section className="contact-section fix section-padding">
-                        <div className="container">
+                        {/* <div className="container">
                             <div className="contact-wrapper-2">
                                 <div className="row g-4 align-items-center">
                                     <div className="col-lg-6">
@@ -27,9 +28,9 @@ export default function Contact() {
                                                         </svg>
                                                     </div>
                                                     <div className="content">
-                                                        <p>Call Us 7/24</p>
+                                                        <p>Tell With US</p>
                                                         <h3>
-                                                            <Link href="tel:+2085550112">+208-555-0112</Link>
+                                                            <Link href="+91 7874278859">+91 7874278859</Link>
                                                         </h3>
                                                     </div>
                                                 </div>
@@ -42,9 +43,9 @@ export default function Contact() {
                                                         </svg>
                                                     </div>
                                                     <div className="content">
-                                                        <p>Make a Quote</p>
+                                                        <p>Quick Email</p>
                                                         <h3>
-                                                            <Link href="mailto:infotech@gmail.com">Infotech@gmail.com</Link>
+                                                            <Link href="info@aizinfotechs.com">info@aizinfotechs.com</Link>
                                                         </h3>
                                                     </div>
                                                 </div>
@@ -56,9 +57,9 @@ export default function Contact() {
                                                         </svg>
                                                     </div>
                                                     <div className="content">
-                                                        <p>Location</p>
+                                                        <p>Office Location</p>
                                                         <h3>
-                                                            4517 Washington ave.
+                                                        Al-muqaam building, vishala, ahmedabad, gujarat 380055
                                                         </h3>
                                                     </div>
                                                 </div>
@@ -106,13 +107,17 @@ export default function Contact() {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
+                        <Getinto/>
                     </section>
                     {/*<< Map Section Start >>*/}
                     <div className="map-section">
                         <div className="map-items">
                             <div className="googpemap">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6678.7619084840835!2d144.9618311901502!3d-37.81450084255415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642b4758afc1d%3A0x3119cc820fdfc62e!2sEnvato!5e0!3m2!1sen!2sbd!4v1641984054261!5m2!1sen!2sbd" style={{ border: 0 }} allowFullScreen loading="lazy" />
+
+                            {/* position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; cursor: url(&quot;t;), default; touch-action: pan-x pan-y; */}
+                                
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7345.518394074814!2d72.5334635!3d22.9958808!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e856925fe7f89%3A0x85c1b8f5a9deefa0!2sAIZ%20Infotechs%20-%20Website%20Development%20%26%20IT%20Services%20Company!5e0!3m2!1sen!2sin!4v1721742724698!5m2!1sen!2sin" width="600" height="450" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                         </div>
                     </div>

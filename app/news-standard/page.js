@@ -20,8 +20,8 @@ export default function NewsStandard() {
                                             <img loading="lazy" src="/assets/img/news/post-1.jpg" alt="img" />
                                             <div className="post-date">
                                                 <h3>
-                                                    17 <br />
-                                                    <span>Feb</span>
+                                               2023 <br />
+                                                    <span> December </span>
                                                 </h3>
                                             </div>
                                         </div>
@@ -37,10 +37,10 @@ export default function NewsStandard() {
                                                 </li>
                                             </ul>
                                             <h3>
-                                                <Link href="/news-details">Keep Your Business Safe &amp; Ensure High Availability</Link>
+                                                <Link href="/news-details">WordPress Development Companies In India: The Complete Guideline</Link>
                                             </h3>
                                             <p>
-                                                Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur..
+                                            The Complete Guide To WordPress Development Services In India: Unleashing The Power Of WordPress For Your Business   Are You Looking To Elevate Your Online Presence And Boost Your Business With A Powerful Website? Look No Further Than WordPress Development Services In India. With Its User-Friendly Interface And Extensive Customization Options, WordPress Has Become The […]
                                             </p>
                                             <Link href="/news-details" className="theme-btn mt-4">
                                                 Read More
@@ -48,7 +48,7 @@ export default function NewsStandard() {
                                             </Link>
                                         </div>
                                     </div>
-                                    <div className="news-standard-items">
+                                    {/* <div className="news-standard-items">
                                         <div className="news-thumb">
                                             <img loading="lazy" src="/assets/img/news/post-2.jpg" alt="img" />
                                             <div className="post-date">
@@ -80,8 +80,8 @@ export default function NewsStandard() {
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height={'17px'} width={"17px"} ><path d="M429.8 273l17-17-17-17L276.2 85.4l-17-17-33.9 33.9 17 17L354.9 232 24 232 0 232l0 48 24 0 330.8 0L242.2 392.6l-17 17 33.9 33.9 17-17L429.8 273z"/></svg>
                                             </Link>
                                         </div>
-                                    </div>
-                                    <div className="news-standard-items">
+                                    </div> */}
+                                    {/* <div className="news-standard-items">
                                         <div className="news-thumb">
                                             <img loading="lazy" src="/assets/img/news/post-3.jpg" alt="img" />
                                             <div className="post-date">
@@ -113,15 +113,15 @@ export default function NewsStandard() {
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height={'17px'} width={"17px"} ><path d="M429.8 273l17-17-17-17L276.2 85.4l-17-17-33.9 33.9 17 17L354.9 232 24 232 0 232l0 48 24 0 330.8 0L242.2 392.6l-17 17 33.9 33.9 17-17L429.8 273z"/></svg>
                                             </Link>
                                         </div>
-                                    </div>
-                                    <div className="page-nav-wrap pt-5 text-center">
+                                    </div> */}
+                                    {/* <div className="page-nav-wrap pt-5 text-center">
                                         <ul>
                                             <li><Link className="page-numbers" href="#">01</Link></li>
                                             <li><Link className="page-numbers" href="#">02</Link></li>
                                             <li><Link className="page-numbers" href="#">03</Link></li>
                                             <li><Link className="page-numbers" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height={'17px'} width={"17px"} ><path d="M429.8 273l17-17-17-17L276.2 85.4l-17-17-33.9 33.9 17 17L354.9 232 24 232 0 232l0 48 24 0 330.8 0L242.2 392.6l-17 17 33.9 33.9 17-17L429.8 273z"/></svg></Link></li>
                                         </ul>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                             <div className="col-12 col-lg-4">
