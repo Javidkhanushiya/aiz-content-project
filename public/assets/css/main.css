@@ -1458,14 +1458,14 @@ span {
   }
 }
 .cta-wrapper .cta-items h3 {
-  font-size: 24px;
+  font-size: 32px;
   font-weight: bold;
   color: var(--white);
   line-height: 156%;
 }
 @media (max-width: 767px) {
   .cta-wrapper .cta-items h3 {
-    font-size: 24px;
+    font-size: 28px;
   }
 }
 @media (max-width: 575px) {
@@ -1489,7 +1489,7 @@ span {
   content: "";
   background-color: var(--white);
   z-index: -1;
-  top: 0%;
+  top: 50%;
 }
 .cta-banner-2 .cta-wrapper-2 {
   padding: 55px 60px;
@@ -2112,7 +2112,7 @@ span {
   border-radius: 0;
   background: var(--theme);
   height: 12px;
-  width: 100% !important;
+  width: 0;
   border-radius: 16px;
 }
 .choose-us-wrapper .choose-content .progress-wrap .pro-items .style-two {
@@ -3008,9 +3008,6 @@ span {
   background-color: var(--theme);
   z-index: -1;
 }
-.header-1 .header-main .header-right .header-button .theme-btn svg{
-  margin-left:10px;
-}
 @media (max-width: 1899px) {
   .header-1::before {
     display: none !important;
@@ -3064,7 +3061,6 @@ span {
 .header-1 .header-main .header-right .header-button .theme-btn {
   padding: 22px 30px;
 }
-
 @media (max-width: 1899px) {
   .header-1 .header-main .header-right .header-button {
     margin-right: 0;
@@ -4150,18 +4146,17 @@ span {
   background-image: url(../../assets/img/hero/icon.svg);
 }
 .hero-1 .hero-content h1 {
-  font-size: 65px;
   text-transform: initial;
   margin-bottom: 30px;
 }
 @media (max-width: 1399px) {
   .hero-1 .hero-content h1 {
-    font-size: 65px;
+    font-size: 70px;
   }
 }
 @media (max-width: 1199px) {
   .hero-1 .hero-content h1 {
-    font-size: 50px;
+    font-size: 66px;
   }
 }
 @media (max-width: 991px) {
@@ -6152,7 +6147,7 @@ input.main-search-input::placeholder {
 .project-wrapper .project-items.style-2 .project-content .arrow-icon {
   width: 85px;
   height: 100%;
-  line-height: 186px;
+  line-height: 130px;
   background-color: rgba(56, 75, 255, 0.1);
   text-align: center;
   color: var(--theme);
@@ -6432,6 +6427,7 @@ input.main-search-input::placeholder {
   padding: 35px 30px;
   position: relative;
   z-index: 9;
+  height: 436px !important;
 }
 .service-box-items::before {
   position: absolute;
@@ -7523,12 +7519,12 @@ input.main-search-input::placeholder {
 }
 @media (max-width: 767px) {
   .testimonial-wrapper {
-    padding: 60px 50px !important;
+    padding: 60px 50px;
   }
 }
 @media (max-width: 575px) {
   .testimonial-wrapper {
-    padding: 50px 40px !important;
+    padding: 50px 40px;
   }
 }
 .testimonial-wrapper .testimonial-items {

@@ -57,7 +57,7 @@ export default function Service1() {
                         <div className="swiper service-slider">
                             <Swiper {...swiperOptions} className="swiper-wrapper">
                                 <SwiperSlide>
-                                    <div className="service-box-items" style={{ height: "435px !important" }}>
+                                    <div className="service-box-items" >
                                         <div className="icon">
                                             <img loading="lazy" src="/assets/img/service/icon/s-icon-1.svg" alt="icon-img" />
                                         </div>
@@ -78,7 +78,7 @@ export default function Service1() {
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <div className="service-box-items" style={{ height: "435px !important" }}>
+                                    <div className="service-box-items">
                                         <div className="icon">
                                             <img loading="lazy" src="/assets/img/service/icon/s-icon-2.svg" alt="icon-img" />
                                         </div>
@@ -99,7 +99,7 @@ export default function Service1() {
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <div className="service-box-items" style={{ height: "435px !important" }}>
+                                    <div className="service-box-items" >
                                         <div className="icon">
                                             <img loading="lazy" src="/assets/img/service/icon/s-icon-3.svg" alt="icon-img" />
                                         </div>
@@ -120,7 +120,7 @@ export default function Service1() {
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <div className="service-box-items" style={{ height: "435px !important" }}>
+                                    <div className="service-box-items" >
                                         <div className="icon">
                                             <img loading="lazy" src="/assets/img/service/icon/s-icon-4.svg" alt="icon-img" />
                                         </div>
@@ -141,7 +141,7 @@ export default function Service1() {
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <div className="service-box-items" style={{ height: "435px !important" }}>
+                                    <div className="service-box-items" >
                                         <div className="icon">
                                             <img loading="lazy" src="/assets/img/service/icon/s-icon-1.svg" alt="icon-img" />
                                         </div>
@@ -162,7 +162,7 @@ export default function Service1() {
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <div className="service-box-items" style={{ height: "435px !important" }}>
+                                    <div className="service-box-items" >
                                         <div className="icon">
                                             <img loading="lazy" src="/assets/img/service/icon/s-icon-2.svg" alt="icon-img" />
                                         </div>

@@ -1643,6 +1643,7 @@ br {
     padding: 35px 30px;
     position: relative;
     z-index: 9;
+    height: 436px !important;
 
     @include breakpoint (max-md) {
         margin-top: 0px;

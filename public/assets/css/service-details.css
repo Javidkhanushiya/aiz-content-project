@@ -1276,6 +1276,7 @@ span {
   padding: 35px 30px;
   position: relative;
   z-index: 9;
+  height: 436px !important;
 }
 @media (max-width: 767px) {
   .service-box-items {
@@ -1458,7 +1459,7 @@ span {
   content: "";
   background-color: var(--white);
   z-index: -1;
-  top: 0%;
+  top: 50%;
 }
 .cta-banner-2 .cta-wrapper-2 {
   padding: 55px 60px;
