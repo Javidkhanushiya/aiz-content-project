@@ -13,8 +13,8 @@
     position: relative;
     z-index: 1;
     line-height: 1;
-   
-    
+    width: max-content;
+
     &::before {
         content: "";
         background-color: $header-color;
@@ -41,25 +41,44 @@
         z-index: -1;
     }
 
-    i {
+    svg {
         margin-left: 10px;
+
+        path {
+            fill: $white;
+        }
     }
 
     &:hover {
-       color: $white;
+        color: $white;
 
-        &::before,&::after {
+        &::before,
+        &::after {
             width: 100%;
+        }
+
+        svg {
+            path {
+                fill: $white;
+            }
         }
     }
 
     &.hover-white {
-        &::before,&::after {
+
+        &::before,
+        &::after {
             background-color: $white;
         }
 
         &:hover {
             color: $header-color;
+
+            svg {
+                path {
+                    fill: $header-color;
+                }
+            }
         }
     }
 
@@ -67,8 +86,20 @@
         background-color: $white;
         color: $header-color;
 
+        svg {
+            path {
+                fill: $header-color;
+            }
+        }
+
         &:hover {
             color: $white;
+
+            svg {
+                path {
+                    fill: $white;
+                }
+            }
         }
     }
 
@@ -77,15 +108,16 @@
         background-color: transparent;
         padding: 22px 40px;
 
-        @include breakpoint (max-md){
+        @include breakpoint (max-md) {
             padding: 18px 32px;
         }
-    
-        @include breakpoint (max-sm){
+
+        @include breakpoint (max-sm) {
             padding: 16px 30px;
         }
 
-        &::before,&::after {
+        &::before,
+        &::after {
             background-color: $white;
         }
 
@@ -94,11 +126,11 @@
         }
     }
 
-    @include breakpoint (max-md){
+    @include breakpoint (max-md) {
         padding: 20px 32px;
     }
 
-    @include breakpoint (max-sm){
+    @include breakpoint (max-sm) {
         padding: 18px 30px;
         font-size: 14px;
     }
@@ -111,14 +143,29 @@
     color: $text-color;
     text-transform: capitalize;
 
+    svg {
+        margin-left: 10px;
+
+        path {
+            fill: $text-color;
+        }
+    }
+
     i {
         margin-left: 10px;
     }
 
     &:hover {
         color: $theme-color;
+
+        svg {
+            path {
+                fill: $theme-color;
+            }
+        }
     }
 }
+
 
 
 //>>>>> Component Button End <<<<<//

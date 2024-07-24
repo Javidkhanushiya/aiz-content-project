@@ -58,6 +58,12 @@
 
         .theme-btn-2 {
             color: $theme-color;
+
+            svg {
+                path {
+                    fill: $theme-color;
+                }
+            }
         }
     }
 }

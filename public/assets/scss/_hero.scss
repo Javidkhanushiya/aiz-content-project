@@ -3,19 +3,19 @@
     z-index: 9;
     padding-top: 50px;
 
-    @include breakpoint (max-xl){
+    @include breakpoint (max-xl) {
         padding-top: 130px;
     }
 
-    @include breakpoint (max-lg){
+    @include breakpoint (max-lg) {
         padding-top: 120px;
     }
 
-    @include breakpoint (max-md){
+    @include breakpoint (max-md) {
         padding-top: 100px;
     }
 
-    @include breakpoint (max-sm){
+    @include breakpoint (max-sm) {
         padding-top: 80px;
     }
 
@@ -39,7 +39,7 @@
             -webkit-mask-size: 200%;
         }
 
-        @include breakpoint (max-xl4){
+        @include breakpoint (max-xl4) {
             display: none;
         }
     }
@@ -54,7 +54,7 @@
         position: absolute;
         top: 50%;
         left: 42%;
-        transform: translate(-50%,-50%);
+        transform: translate(-50%, -50%);
     }
 
     .frame-shape {
@@ -72,24 +72,24 @@
         z-index: -1;
         height: 910px;
 
-        @include breakpoint (max-xxxl){
+        @include breakpoint (max-xxxl) {
             max-width: 700px;
         }
 
-        @include breakpoint (max-xxl){
+        @include breakpoint (max-xxl) {
             max-width: 600px;
         }
 
-        @include breakpoint (max-xl){
+        @include breakpoint (max-xl) {
             max-width: 500px;
         }
 
-        @include breakpoint (max-lg){
+        @include breakpoint (max-lg) {
             display: none;
         }
 
         img {
-           height: 100%;
+            height: 100%;
         }
     }
 
@@ -97,15 +97,15 @@
         position: relative;
         z-index: 9;
 
-        @include breakpoint (max-xl){
+        @include breakpoint (max-xl) {
             margin-bottom: 80px;
         }
 
-        @include breakpoint (max-lg){
+        @include breakpoint (max-lg) {
             margin-bottom: 0;
         }
 
-        @include breakpoint (max-sm){
+        @include breakpoint (max-sm) {
             text-align: center;
             margin: 0 auto;
         }
@@ -137,23 +137,23 @@
             text-transform: initial;
             margin-bottom: 30px;
 
-            @include breakpoint (max-xxl){
+            @include breakpoint (max-xxl) {
                 font-size: 70px;
             }
 
-            @include breakpoint (max-xl){
+            @include breakpoint (max-xl) {
                 font-size: 66px;
             }
 
-            @include breakpoint (max-lg){
+            @include breakpoint (max-lg) {
                 font-size: 60px;
             }
 
-            @include breakpoint (max-md){
+            @include breakpoint (max-md) {
                 font-size: 48px;
             }
 
-            @include breakpoint (max-sm){
+            @include breakpoint (max-sm) {
                 font-size: 32px;
                 margin-bottom: 20px;
             }
@@ -169,11 +169,11 @@
             gap: 30px;
             margin-top: 50px;
 
-            @include breakpoint (max-md){
+            @include breakpoint (max-md) {
                 margin-top: 40px;
             }
 
-            @include breakpoint (max-sm){
+            @include breakpoint (max-sm) {
                 margin-top: 25px;
                 justify-content: center;
                 flex-wrap: wrap;
@@ -202,7 +202,7 @@
                     border-radius: 50%;
                     border: 1px solid $theme-color;
                     content: "";
-                    transform: translate(-50%,-50%);
+                    transform: translate(-50%, -50%);
                 }
             }
 
@@ -220,21 +220,21 @@
         width: 520px;
         height: 785px;
 
-        @include breakpoint (max-xxxl){
-           width: initial;
-           height: initial;
-           max-width: 520px;
+        @include breakpoint (max-xxxl) {
+            width: initial;
+            height: initial;
+            max-width: 520px;
 
-           img {
+            img {
                 @include imgw;
-           }
+            }
         }
 
-        @include breakpoint (max-xl){
+        @include breakpoint (max-xl) {
             margin-bottom: -95px;
         }
 
-        @include breakpoint (max-lg){
+        @include breakpoint (max-lg) {
             text-align: center;
             margin: 0 auto;
             margin-bottom: 0;
@@ -245,19 +245,19 @@
         position: relative;
         padding: 165px 0;
 
-        @include breakpoint (max-xl){
+        @include breakpoint (max-xl) {
             padding-top: 130px;
         }
-    
-        @include breakpoint (max-lg){
+
+        @include breakpoint (max-lg) {
             padding-top: 120px;
         }
-    
-        @include breakpoint (max-md){
+
+        @include breakpoint (max-md) {
             padding-top: 100px;
         }
-    
-        @include breakpoint (max-sm){
+
+        @include breakpoint (max-sm) {
             padding-top: 80px;
         }
 
@@ -312,19 +312,19 @@
             position: relative;
             z-index: 9;
 
-            @include breakpoint (max-xxxl){
+            @include breakpoint (max-xxxl) {
                 width: 497px;
                 height: 605px;
                 margin-bottom: -165px;
                 margin-left: -110px;
             }
 
-            @include breakpoint (max-xl){
+            @include breakpoint (max-xl) {
                 margin-bottom: -270px;
                 margin-left: -175px;
             }
 
-            @include breakpoint (max-lg){
+            @include breakpoint (max-lg) {
                 height: initial;
                 margin-bottom: -165px;
                 width: initial;
@@ -376,9 +376,21 @@
             border-radius: 50%;
             @include transition;
 
+            svg {
+                path {
+                    fill: $white;
+                }
+            }
+
             &:hover {
                 background-color: $white;
                 color: $theme-color;
+
+                svg {
+                    path {
+                        fill: $theme-color;
+                    }
+                }
             }
         }
 
@@ -393,18 +405,30 @@
             border: 1px solid $white;
             @include transition;
 
+            svg {
+                path {
+                    fill: $white;
+                }
+            }
+
             &:hover {
                 background-color: $white;
                 color: $theme-color;
+
+                svg {
+                    path {
+                        fill: $theme-color;
+                    }
+                }
             }
         }
 
-        @include breakpoint (max-xxxl){
-           left: initial;
-           right: 30px;
+        @include breakpoint (max-xxxl) {
+            left: initial;
+            right: 30px;
         }
 
-        @include breakpoint (max-md){
+        @include breakpoint (max-md) {
             display: none;
         }
     }
@@ -416,11 +440,11 @@
         right: 0;
         z-index: 2;
 
-        @include breakpoint (max-xxxl){
-           bottom: -50px;
+        @include breakpoint (max-xxxl) {
+            bottom: -50px;
         }
 
-        @include breakpoint (max-xxl){
+        @include breakpoint (max-xxl) {
             display: none;
         }
 
@@ -462,8 +486,8 @@
             position: absolute;
             top: 12%;
             right: 0;
-            
-            @include breakpoint (max-xl){
+
+            @include breakpoint (max-xl) {
                 display: none;
             }
         }
@@ -493,23 +517,23 @@
         padding-bottom: 270px;
         padding-top: 200px;
 
-        @include breakpoint (max-xxl){
+        @include breakpoint (max-xxl) {
             padding: 180px 0;
         }
 
-        @include breakpoint (max-xl){
+        @include breakpoint (max-xl) {
             padding: 160px 0;
         }
 
-        @include breakpoint (max-lg){
+        @include breakpoint (max-lg) {
             padding: 130px 0;
         }
 
-        @include breakpoint (max-md){
+        @include breakpoint (max-md) {
             padding: 110px 0;
         }
 
-        @include breakpoint (max-sm){
+        @include breakpoint (max-sm) {
             text-align: center;
             margin: 0 auto;
             padding: 80px 0;
@@ -536,24 +560,24 @@
         h1 {
             color: $white;
             margin-bottom: 20px;
-            
-            @include breakpoint (max-xxl){
+
+            @include breakpoint (max-xxl) {
                 font-size: 70px;
             }
 
-            @include breakpoint (max-xl){
+            @include breakpoint (max-xl) {
                 font-size: 62px;
             }
 
-            @include breakpoint (max-lg){
+            @include breakpoint (max-lg) {
                 font-size: 52px;
             }
 
-            @include breakpoint (max-md){
+            @include breakpoint (max-md) {
                 font-size: 42px;
             }
 
-            @include breakpoint (max-sm){
+            @include breakpoint (max-sm) {
                 font-size: 34px;
             }
         }
@@ -567,11 +591,11 @@
             gap: 20px;
             margin-top: 50px;
 
-            @include breakpoint (max-md){
+            @include breakpoint (max-md) {
                 margin-top: 30px;
             }
 
-            @include breakpoint (max-sm){
+            @include breakpoint (max-sm) {
                 flex-wrap: wrap;
                 margin-top: 20px;
                 justify-content: center;
@@ -581,14 +605,15 @@
 }
 
 .hero-4 {
-   padding-top: 140px;
-   padding-bottom: 80px;
+    padding-top: 140px;
+    padding-bottom: 80px;
 
 
     .hero-content {
-        @include breakpoint (max-sm){
-           text-align: center;
+        @include breakpoint (max-sm) {
+            text-align: center;
         }
+
         h6 {
             color: $theme-color;
             font-weight: 600;
@@ -614,19 +639,19 @@
             font-size: 70px;
             margin-bottom: 20px;
 
-            @include breakpoint (max-xxl){
+            @include breakpoint (max-xxl) {
                 font-size: 60px;
             }
 
-            @include breakpoint (max-xl){
+            @include breakpoint (max-xl) {
                 font-size: 52px;
             }
 
-            @include breakpoint (max-md){
+            @include breakpoint (max-md) {
                 font-size: 42px;
             }
 
-            @include breakpoint (max-sm){
+            @include breakpoint (max-sm) {
                 font-size: 34px;
             }
         }
@@ -642,11 +667,11 @@
             gap: 30px;
             margin-top: 50px;
 
-            @include breakpoint (max-md){
+            @include breakpoint (max-md) {
                 margin-top: 40px;
             }
 
-            @include breakpoint (max-sm){
+            @include breakpoint (max-sm) {
                 margin-top: 25px;
                 justify-content: center;
                 flex-wrap: wrap;
@@ -675,7 +700,7 @@
                     border-radius: 50%;
                     border: 1px solid $theme-color;
                     content: "";
-                    transform: translate(-50%,-50%);
+                    transform: translate(-50%, -50%);
                 }
             }
 

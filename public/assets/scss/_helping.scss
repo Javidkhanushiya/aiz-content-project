@@ -1,19 +1,21 @@
-
 //page scroll bar add
 ::-webkit-scrollbar {
-	width: 4px;
-	height: 4px;
+  width: 4px;
+  height: 4px;
 }
+
 /* Track */
 ::-webkit-scrollbar-track {
-	box-shadow: inset 0 0 5px $theme-color; 
-	border-radius: 5px;
+  box-shadow: inset 0 0 5px $theme-color;
+  border-radius: 5px;
 }
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-	background: $theme-color;
-	border-radius: 10px;
+  background: $theme-color;
+  border-radius: 10px;
 }
+
 //page scroll bar add
 
 //Basic Code Start
@@ -21,121 +23,150 @@
   overflow: hidden;
 }
 
-.ralt{
- position: relative;
+.ralt {
+  position: relative;
 }
 
-.ml-100{
+.ml-100 {
   margin-left: 100px;
 }
+
 //Basic Code End
 
 //Video Css Start
 .ripple {
   position: relative;
 
-  &::before,&::after {
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      width: 60px;
-      height: 60px;
-      -webkit-transform: translateX(-50%) translateY(-50%);
-      transform: translateX(-50%) translateY(-50%);
-      border-radius: 50%;
-      -webkit-box-shadow: 0 0 0 0 rgba(56, 75, 255, 0.2);
-      -ms-box-shadow: 0 0 0 0 rgba(56, 75, 255, 0.2);
-      -o-box-shadow: 0 0 0 0 rgba(56, 75, 255, 0.2);
-      box-shadow: 0 0 0 0 rgba(56, 75, 255, 0.2);
-      -webkit-animation: rippleOne 3s infinite;
-      animation: rippleOne 3s infinite;
+  &::before,
+  &::after {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 60px;
+    height: 60px;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 50%;
+    -webkit-box-shadow: 0 0 0 0 rgba(56, 75, 255, 0.2);
+    -ms-box-shadow: 0 0 0 0 rgba(56, 75, 255, 0.2);
+    -o-box-shadow: 0 0 0 0 rgba(56, 75, 255, 0.2);
+    box-shadow: 0 0 0 0 rgba(56, 75, 255, 0.2);
+    -webkit-animation: rippleOne 3s infinite;
+    animation: rippleOne 3s infinite;
   }
 
   &::before {
-      -webkit-animation-delay: 0.9s;
-      animation-delay: 0.9s;
-      content: "";
-      position: absolute;
-      right: 0;
-      bottom: 0;
+    -webkit-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
   }
 
   &::after {
-      -webkit-animation-delay: 0.6s;
-      animation-delay: 0.6s;
-      content: "";
-      position: absolute;
-      right: 0;
-      bottom: 0;
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
   }
 }
+
 //Video Css End
 
 //pagination default
 
 .swiper-dot-2 {
-    border: 2px dotted $theme-color;
-    width: 146px;
-    height: 41px;
-    line-height: 37px;
-    border-radius: 50px;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 50px;
-    position: relative;
-    z-index: 9;
+  border: 2px dotted $theme-color;
+  width: 146px;
+  height: 41px;
+  line-height: 37px;
+  border-radius: 50px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  position: relative;
+  z-index: 9;
 
-    .swiper-pagination-bullet {
-        background-color: transparent;
-        width: 11px;
-        height: 11px;
-        border: 2px solid $theme-color !important;
-        opacity: 1;
+  .swiper-pagination-bullet {
+    background-color: transparent;
+    width: 11px;
+    height: 11px;
+    border: 2px solid $theme-color !important;
+    opacity: 1;
+  }
+
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: $theme-color;
+
+    &::before {
+      border: 2px solid $theme-color;
     }
-    .swiper-pagination-bullet.swiper-pagination-bullet-active {
-      background-color: $theme-color;
-      &::before{
-        border: 2px solid $theme-color;
-      }
   }
 }
 
 .array-button {
-    @include flex;
-    gap: 15px;
+  @include flex;
+  gap: 15px;
 
-    .array-prev {
-      width: 56px;
-      height: 56px;
-      line-height: 56px;
-      text-align: center;
-      background-color: transparent;
-      color: $theme-color;
-      border-radius: 50%;
-      border: 1px solid $theme-color;
-      @include transition;
+  .array-prev {
+    width: 56px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    background-color: transparent;
+    color: $theme-color;
+    border-radius: 50%;
+    border: 1px solid $theme-color;
+    @include transition;
 
-      &:hover {
-          background-color: $theme-color;
-          color: $white;
+    svg {
+      path {
+        fill: $theme-color;
       }
+    }
+
+    &:hover {
+      background-color: $theme-color;
+      color: $white;
+
+      svg {
+        path {
+          fill: $white;
+        }
+      }
+    }
   }
 
   .array-next {
-     
-      width: 56px;
-      height: 56px;
-      line-height: 56px;
-      text-align: center;
-      background-color: $theme-color;
-      color: $white;
-      border-radius: 50%;
-      @include transition;
 
-      &:hover {
-          background-color: $white;
-          color: $theme-color;
+    width: 56px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    background-color: $theme-color;
+    color: $white;
+    border-radius: 50%;
+    @include transition;
+
+    svg {
+      path {
+        fill: $white;
       }
+    }
+
+    &:hover {
+      background-color: $white;
+      color: $theme-color;
+
+      svg {
+        path {
+          fill: $theme-color;
+        }
+      }
+    }
   }
 }
 
@@ -146,7 +177,7 @@
 }
 
 br {
-  @include breakpoint(max-sm){
+  @include breakpoint(max-sm) {
     display: none;
   }
 }
@@ -162,27 +193,27 @@ br {
 
 //>>>>> Nice Select Css Start <<<<<//
 .nice-select {
-    background-color: transparent;
-    width: unset;
-    outline: none;
-    border-bottom: 2px solid $border-color !important;
-    padding-bottom: 20px !important; 
-    border: none;
-    border-radius: 0;
-    padding: 0;
+  background-color: transparent;
+  width: unset;
+  outline: none;
+  border-bottom: 2px solid $border-color !important;
+  padding-bottom: 20px !important;
+  border: none;
+  border-radius: 0;
+  padding: 0;
 
-      &:hover {
-        border-bottom: 2px solid transparent;
-        border-color: $theme-color;
-        border-bottom: 2px solid transparent;
-        border-image-slice: 2;
-    }
+  &:hover {
+    border-bottom: 2px solid transparent;
+    border-color: $theme-color;
+    border-bottom: 2px solid transparent;
+    border-image-slice: 2;
+  }
 
-    span {
-      font-size: 16px;
-      color: $text-color;
-      text-transform: capitalize;
-    }
+  span {
+    font-size: 16px;
+    color: $text-color;
+    text-transform: capitalize;
+  }
 }
 
 .nice-select .current {
@@ -200,7 +231,7 @@ br {
   border-color: $theme-color;
   border-right: 2px solid transparent;
   border-image-slice: 2;
-  
+
 }
 
 .nice-select.open .list {
@@ -212,13 +243,13 @@ br {
 }
 
 .nice-select .option.selected.focus {
-    background: $bg-color;
-    outline: none;
-    color: $text-color;
-    text-transform: capitalize;
-    font-weight: 400;
-    font-size: 16px;
-    border: none;
+  background: $bg-color;
+  outline: none;
+  color: $text-color;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 16px;
+  border: none;
 }
 
 .nice-select .option {
@@ -228,6 +259,7 @@ br {
 .nice-select .option:hover {
   background: transparent;
 }
+
 //>>>>> Nice Select Css End <<<<<//
 
 
@@ -289,29 +321,29 @@ br {
 .mt-30 {
   margin-top: 30px;
 
-  @include breakpoint (max-md){
+  @include breakpoint (max-md) {
     margin-top: 0;
   }
 }
 
 .bor-top {
-	border-top: 1px solid rgba(255, 255, 255, .4); 
+  border-top: 1px solid rgba(255, 255, 255, .4);
 }
 
 .bor-left {
-	border-left: 1px solid $border-color;
+  border-left: 1px solid $border-color;
 }
 
 .bor-bottom {
-	border-bottom: 1px solid rgba(255, 255, 255, .4); 
+  border-bottom: 1px solid rgba(255, 255, 255, .4);
 }
 
 .bor-right {
-	border-right: 1px solid $border-color;
+  border-right: 1px solid $border-color;
 }
 
 .footer-bg {
-    background-color: $header-color;
+  background-color: $header-color;
 }
 
 .border-white {
@@ -319,28 +351,28 @@ br {
   color: $white !important;
 
   &:hover {
-      border: 1px solid transparent !important;
+    border: 1px solid transparent !important;
   }
 }
 
 .mr-left {
-    margin-left: 50% !important;
+  margin-left: 50% !important;
 
-    @include breakpoint (max-lg){
-      margin-left: 35% !important;
-    }
+  @include breakpoint (max-lg) {
+    margin-left: 35% !important;
+  }
 }
 
 .mt-70 {
-    margin-top: 70px;
+  margin-top: 70px;
 
-    @include breakpoint (max-xl){
-      margin-top: 30px;
-    }
+  @include breakpoint (max-xl) {
+    margin-top: 30px;
+  }
 }
 
 .box-shadow {
-    box-shadow: $shadow !important;
+  box-shadow: $shadow !important;
 }
 
 .mt-5 {
@@ -349,43 +381,44 @@ br {
 
 .page-nav-wrap {
   ul {
-      li {
-          display: inline-block;
+    li {
+      display: inline-block;
 
-          .page-numbers {
-              &.current {
-                  background-color: $theme-color;
-                  color: $white;
-              }
+      .page-numbers {
+        &.current {
+          background-color: $theme-color;
+          color: $white;
+        }
 
-              display: inline-block;
-              width:50px;
-              height:50px;
-              line-height:50px;           
-              background: transparent;
-              font-weight: 600;
-              transition: all 0.3s ease-in-out;
-              margin: 0 2px;
-              border: 1px solid $border-color;
-              color: $text-color;
+        display: inline-block;
+        width:50px;
+        height:50px;
+        line-height:50px;
+        background: transparent;
+        font-weight: 600;
+        transition: all 0.3s ease-in-out;
+        margin: 0 2px;
+        border: 1px solid $border-color;
+        color: $text-color;
 
-              @media (max-width: 767px) {
-                  margin-top: 10px;
-                  width: 50px;
-                  height: 50px;
-                  line-height: 50px;
-                  font-size: 14px;
-              }
+        @media (max-width: 767px) {
+          margin-top: 10px;
+          width: 50px;
+          height: 50px;
+          line-height: 50px;
+          font-size: 14px;
+        }
 
-              i {
-                  margin-top: 2px;
-              }
-              &:hover {
-                  background-color: $theme-color;
-                  color: $white;
-                  border: 1px solid transparent;
-              }
-          }
+        i {
+          margin-top: 2px;
+        }
+
+        &:hover {
+          background-color: $theme-color;
+          color: $white;
+          border: 1px solid transparent;
+        }
       }
+    }
   }
 }

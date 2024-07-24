@@ -163,6 +163,12 @@
                 border-radius: 50%;
                 position: relative;
 
+                svg {
+                    path {
+                        fill: $theme-color;
+                    }
+                }
+
                 &::before {
                     position: absolute;
                     top: 50%;

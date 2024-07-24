@@ -1,4 +1,3 @@
-
 //>>>>> Header Top Start <<<<<//
 .header-top-section {
     background-color: $header-color;
@@ -341,10 +340,21 @@
                                         width: initial;
                                         font-size: 14px;
                                         text-align: center;
-                                      
+
+                                        svg {
+                                            path {
+                                                fill: $white;
+                                            }
+                                        }
 
                                         &:hover {
                                             color: $white !important;
+
+                                            svg {
+                                                path {
+                                                    fill: $white;
+                                                }
+                                            }
                                         }
                                     }
                                 }
@@ -709,6 +719,12 @@
                     @include breakpoint (max-xl4) {
                         background-color: $theme-color !important;
                         color: $white;
+
+                        svg {
+                            path {
+                                fill: $white;
+                            }
+                        }
                     }
                 }
 
@@ -772,6 +788,12 @@
                     @include breakpoint (max-xl4) {
                         background-color: $theme-color !important;
                         color: $white;
+
+                        svg {
+                            path {
+                                fill: $white;
+                            }
+                        }
                     }
                 }
 
@@ -870,6 +892,12 @@
                     .theme-btn {
                         background-color: $theme-color !important;
                         color: $white;
+
+                        svg {
+                            path {
+                                fill: $white;
+                            }
+                        }
                     }
                 }
             }

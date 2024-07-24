@@ -42,6 +42,7 @@ Version: 1.0.0
   position: relative;
   z-index: 1;
   line-height: 1;
+  width: max-content;
 }
 .theme-btn::before {
   content: "";
@@ -67,8 +68,11 @@ Version: 1.0.0
   transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
   z-index: -1;
 }
-.theme-btn i {
+.theme-btn svg {
   margin-left: 10px;
+}
+.theme-btn svg path {
+  fill: var(--white);
 }
 .theme-btn:hover {
   color: var(--white);
@@ -76,18 +80,30 @@ Version: 1.0.0
 .theme-btn:hover::before, .theme-btn:hover::after {
   width: 100%;
 }
+.theme-btn:hover svg path {
+  fill: var(--white);
+}
 .theme-btn.hover-white::before, .theme-btn.hover-white::after {
   background-color: var(--white);
 }
 .theme-btn.hover-white:hover {
   color: var(--header);
 }
+.theme-btn.hover-white:hover svg path {
+  fill: var(--header);
+}
 .theme-btn.bg-white {
   background-color: var(--white);
   color: var(--header);
 }
+.theme-btn.bg-white svg path {
+  fill: var(--header);
+}
 .theme-btn.bg-white:hover {
   color: var(--white);
+}
+.theme-btn.bg-white:hover svg path {
+  fill: var(--white);
 }
 .theme-btn.border-white {
   border: 1px solid var(--white);
@@ -129,11 +145,20 @@ Version: 1.0.0
   color: var(--text);
   text-transform: capitalize;
 }
+.theme-btn-2 svg {
+  margin-left: 10px;
+}
+.theme-btn-2 svg path {
+  fill: var(--text);
+}
 .theme-btn-2 i {
   margin-left: 10px;
 }
 .theme-btn-2:hover {
   color: var(--theme);
+}
+.theme-btn-2:hover svg path {
+  fill: var(--theme);
 }
 
 /* --------------------------------------------
@@ -691,6 +716,9 @@ span {
   color: var(--white);
   border-radius: 50%;
   position: relative;
+}
+.about-wrapper-2 .about-content .about-author .author-icon .icon svg path {
+  fill: var(--theme);
 }
 .about-wrapper-2 .about-content .about-author .author-icon .icon::before {
   position: absolute;
@@ -1538,6 +1566,9 @@ span {
   color: var(--theme);
   border-radius: 50%;
   position: relative;
+}
+.cta-banner-2 .cta-wrapper-2 .author-icon .icon svg path {
+  fill: var(--theme);
 }
 .cta-banner-2 .cta-wrapper-2 .author-icon .icon::before {
   position: absolute;
@@ -2931,8 +2962,14 @@ span {
   font-size: 14px;
   text-align: center;
 }
+.header-main .main-menu ul li .has-homemenu .homemenu-items .homemenu .homemenu-thumb .demo-button .theme-btn svg path {
+  fill: var(--white);
+}
 .header-main .main-menu ul li .has-homemenu .homemenu-items .homemenu .homemenu-thumb .demo-button .theme-btn:hover {
   color: var(--white) !important;
+}
+.header-main .main-menu ul li .has-homemenu .homemenu-items .homemenu .homemenu-thumb .demo-button .theme-btn:hover svg path {
+  fill: var(--white);
 }
 .header-main .main-menu ul li .has-homemenu .homemenu-items .homemenu .homemenu-thumb::before {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(99, 92, 92, 0)), to(#5e5ef6));
@@ -3259,6 +3296,9 @@ span {
     background-color: var(--theme) !important;
     color: var(--white);
   }
+  .header-3 .header-main .header-right .header-button .theme-btn svg path {
+    fill: var(--white);
+  }
 }
 @media (max-width: 1899px) {
   .header-3 .header-main .header-right .header-button {
@@ -3314,6 +3354,9 @@ span {
   .header-4 .header-main .header-right .header-button .theme-btn {
     background-color: var(--theme) !important;
     color: var(--white);
+  }
+  .header-4 .header-main .header-right .header-button .theme-btn svg path {
+    fill: var(--white);
   }
 }
 @media (max-width: 1899px) {
@@ -3389,6 +3432,9 @@ span {
 .sticky.header-3 .header-main .header-right .header-button .theme-btn {
   background-color: var(--theme) !important;
   color: var(--white);
+}
+.sticky.header-3 .header-main .header-right .header-button .theme-btn svg path {
+  fill: var(--white);
 }
 
 .offcanvas__info {
@@ -3752,9 +3798,15 @@ span {
   border: 1px solid var(--theme);
   transition: all 0.4s ease-in-out;
 }
+.array-button .array-prev svg path {
+  fill: var(--theme);
+}
 .array-button .array-prev:hover {
   background-color: var(--theme);
   color: var(--white);
+}
+.array-button .array-prev:hover svg path {
+  fill: var(--white);
 }
 .array-button .array-next {
   width: 56px;
@@ -3766,9 +3818,15 @@ span {
   border-radius: 50%;
   transition: all 0.4s ease-in-out;
 }
+.array-button .array-next svg path {
+  fill: var(--white);
+}
 .array-button .array-next:hover {
   background-color: var(--white);
   color: var(--theme);
+}
+.array-button .array-next:hover svg path {
+  fill: var(--theme);
 }
 
 .mt-10 {
@@ -4385,9 +4443,15 @@ span {
   border-radius: 50%;
   transition: all 0.4s ease-in-out;
 }
+.hero-3 .array-button .array-prev svg path {
+  fill: var(--white);
+}
 .hero-3 .array-button .array-prev:hover {
   background-color: var(--white);
   color: var(--theme);
+}
+.hero-3 .array-button .array-prev:hover svg path {
+  fill: var(--theme);
 }
 .hero-3 .array-button .array-next {
   width: 56px;
@@ -4400,9 +4464,15 @@ span {
   border: 1px solid var(--white);
   transition: all 0.4s ease-in-out;
 }
+.hero-3 .array-button .array-next svg path {
+  fill: var(--white);
+}
 .hero-3 .array-button .array-next:hover {
   background-color: var(--white);
   color: var(--theme);
+}
+.hero-3 .array-button .array-next:hover svg path {
+  fill: var(--theme);
 }
 @media (max-width: 1600px) {
   .hero-3 .array-button {
@@ -4894,8 +4964,14 @@ span {
   font-size: 14px;
   text-align: center;
 }
+.mean-container .mean-nav > ul .homemenu-items .homemenu .homemenu-thumb .demo-button .theme-btn svg path {
+  fill: var(--white);
+}
 .mean-container .mean-nav > ul .homemenu-items .homemenu .homemenu-thumb .demo-button .theme-btn:hover {
   color: var(--white) !important;
+}
+.mean-container .mean-nav > ul .homemenu-items .homemenu .homemenu-thumb .demo-button .theme-btn:hover svg path {
+  fill: var(--white) !important;
 }
 .mean-container .mean-nav > ul .homemenu-items .homemenu .homemenu-thumb::before {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(99, 92, 92, 0)), to(#5e5ef6));
@@ -5064,6 +5140,9 @@ span {
 }
 .single-news-items .news-content .theme-btn-2 {
   color: var(--theme);
+}
+.single-news-items .news-content .theme-btn-2 svg path {
+  fill: var(--theme);
 }
 
 .news-section-3 {
@@ -6515,6 +6594,9 @@ input.main-search-input::placeholder {
 .service-box-items:hover .content .theme-btn-2 {
   color: var(--white);
 }
+.service-box-items:hover .content .theme-btn-2 svg path {
+  fill: var(--white);
+}
 .service-box-items.active::before {
   transform: scale(1, 1);
   transform-origin: top center;
@@ -6535,6 +6617,9 @@ input.main-search-input::placeholder {
 }
 .service-box-items.active .content .theme-btn-2 {
   color: var(--white);
+}
+.service-box-items.active .content .theme-btn-2 svg path {
+  fill: var(--white);
 }
 .service-box-items.style-2 {
   background-color: var(--white);
@@ -6574,6 +6659,9 @@ input.main-search-input::placeholder {
 .service-box-items.style-2.active .content .theme-btn-2 {
   color: var(--white);
 }
+.service-box-items.style-2.active .content .theme-btn-2 svg path {
+  fill: var(--white);
+}
 .service-box-items.style-3 {
   box-shadow: var(--box-shadow);
   border-radius: 10px !important;
@@ -6597,9 +6685,15 @@ input.main-search-input::placeholder {
   margin-top: 30px;
   color: var(--header);
 }
+.service-box-items.style-3 .theme-btn-2 svg path {
+  fill: var(--header);
+}
 .service-box-items.style-3 .theme-btn-2:hover {
   background-color: var(--white);
   color: var(--header);
+}
+.service-box-items.style-3 .theme-btn-2:hover svg path {
+  fill: var(--header);
 }
 .service-box-items.style-3:hover .icon::before {
   background-image: url(../../assets/img/service/shape.png);
@@ -6619,6 +6713,9 @@ input.main-search-input::placeholder {
 .service-box-items.style-3.active .theme-btn-2 {
   background-color: var(--white);
   color: var(--header);
+}
+.service-box-items.style-3.active .theme-btn-2 svg path {
+  fill: var(--header);
 }
 .service-box-items.style-3.active .content h4 a {
   color: var(--white);
@@ -7709,6 +7806,9 @@ input.main-search-input::placeholder {
   z-index: 9;
   border: 1px solid var(--white);
   color: var(--white);
+}
+.tesimonial-section-3 .array-button .array-prev svg path {
+  fill: var(--white);
 }
 @media (max-width: 1899px) {
   .tesimonial-section-3 .array-button .array-prev {
