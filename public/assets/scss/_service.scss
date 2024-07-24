@@ -1,6 +1,10 @@
 
 .service-wrapper {
     margin-bottom: 187px;
+
+    .swiper-slide {
+        height: unset !important;
+    }
     
     .service-text {
         margin-top: 50px;
@@ -24,7 +28,7 @@
     padding: 35px 30px;
     position: relative;
     z-index: 9;
-    height: 436px !important;
+    height: 100% !important;
 
     &::before {
         @include before;

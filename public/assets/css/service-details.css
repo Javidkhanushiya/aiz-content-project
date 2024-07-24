@@ -1276,7 +1276,7 @@ span {
   padding: 35px 30px;
   position: relative;
   z-index: 9;
-  height: 436px !important;
+  height: 100% !important;
 }
 @media (max-width: 767px) {
   .service-box-items {

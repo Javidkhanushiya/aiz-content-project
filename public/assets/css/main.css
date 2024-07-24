@@ -6487,6 +6487,9 @@ input.main-search-input::placeholder {
 .service-wrapper {
   margin-bottom: 187px;
 }
+.service-wrapper .swiper-slide {
+  height: unset !important;
+}
 .service-wrapper .service-text {
   margin-top: 50px;
   text-align: center;
@@ -6506,7 +6509,7 @@ input.main-search-input::placeholder {
   padding: 35px 30px;
   position: relative;
   z-index: 9;
-  height: 436px !important;
+  height: 100% !important;
 }
 .service-box-items::before {
   position: absolute;
